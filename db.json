@@ -1,15 +1,15 @@
 {
     "cursos": [
-      { "id": 1, "titulo": "BCC(Bacharelado em Ciência da Computação)", "laboratorios":5, "alunos":35},
-      { "id": 2, "titulo": "BF(Bacharelado em Filosofia)", "laboratorios":3, "alunos":30},
+      { "id": 1, "titulo": "BCC(Bacharelado em Ciência da Computação)", "laboratorios":[5], "alunos":35},
+      { "id": 2, "titulo": "BF(Bacharelado em Filosofia)", "laboratorios":[3], "alunos":30},
       { "id": 3, "titulo": "BEB(Bacharelado em Estudos Biológicos)", "laboratorios":[1,2,6], "alunos":35},
       { "id": 4, "titulo": "BFF(Bacharelado em Fisíca)", "laboratorios":[2,4], "alunos":40},
-      { "id": 5, "titulo": "BD(Bacharelado em Direito)", "laboratorios":3, "alunos":40},
-      { "id": 6, "titulo": "DCC(Doutorado em Ciência da Computação)", "laboratorios":5, "alunos":30},
-      { "id": 7, "titulo": "DF(Doutorado em Filosofia)", "laboratorios":3, "alunos":20},
+      { "id": 5, "titulo": "BD(Bacharelado em Direito)", "laboratorios":[3], "alunos":40},
+      { "id": 6, "titulo": "DCC(Doutorado em Ciência da Computação)", "laboratorios":[5], "alunos":30},
+      { "id": 7, "titulo": "DF(Doutorado em Filosofia)", "laboratorios":[3], "alunos":20},
       { "id": 8, "titulo": "DEB(Doutorado em Estudos Biológicos)", "laboratorios":[1,2,6], "alunos":35},
       { "id": 9, "titulo": "DFF(Doutorado em Fisíca)", "laboratorios":[2,4], "alunos":30},
-      { "id": 10, "titulo": "DD(Doutorado em Direito)", "laboratorios":3, "alunos":20}
+      { "id": 10, "titulo": "DD(Doutorado em Direito)", "laboratorios":[3], "alunos":20}
     ],
     "professores": [
       { "id": 1, "nome": "Bruna Cachinhos", "curso": [1,6], "turno": ["manhã", "tarde"]},
